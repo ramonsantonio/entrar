@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+ ----------------------------
+ pequenas telas: até 600px
+ celular: 600px até  750px
+ tablet: 768px até 1200px
+ Desktop: 992px até 1200px
+ Grandes telas: acima de 1200px
+ */
+
+
+* {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-image: url(fundo-login.jpg);
+    background-size: cover;
+    background-color: rgb(19, 19, 122);
+  
+}
+
+main {
+    height: 95vh;
+    
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 270px;
+    height: 500px;
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+}
+
+section#login > div#img {
+    display: block;
+    background: purple url(img-login.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 5px;
+}
+
+div#formulario > h1 {
+    margin-bottom: 10px;
+    color: blueviolet;
+}
+
+form > div#campo {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-radius: 2px;
+    
+}
+
+div#formulario > p {
+    font-size: 1em;
+    margin-bottom:10px;
+    padding: 0px;
+
+}
+
+input , label {
+    margin-bottom: 8px;
+    padding: 0px 5px;
+    
+}
+ 
+input {
+    border-radius: 4px;
+    height: 25px;
+    border: 1px solid blueviolet;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(241, 240, 240);
+    font-size: 0.9em;
+    border: 1px solid;
+    border-radius: 3px;
+    box-sizing: px;
+    padding: 2.1px;
+
+}
+
+
+div#campo > input[type=password]:hover{
+    background-color: rgba(0, 0, 255, 0.158);
+    color: white;
+}
+
+div#campo > input[type=email]:hover{
+    background-color: #0000ff28;
+    color: white;
+}
+
+
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ 
+
+.entrar {
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    
+}
+
+input[type=submit]:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.minha {
+    height: 25px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+}
+
+.minha:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+a:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+hr {
+    width: 260px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: blueviolet;
+}
+
+
+.criar {
+    width: 260px;
+    height: 30px;
+    border: 0px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.icriar {
+    align-items: center;
+}
+
+.criar:hover {
+    background-color: #0000ff28;
+    color: blueviolet;
+}
+
+footer {
+    
+    color: white;
+    text-align: center;
+
+}
+
