@@ -125,7 +125,7 @@ div#campo > input[type=email]:hover{
 .entrar {
     color: blueviolet;
     border: 1px solid blueviolet;
-    
+    background-color: white;
 }
 
 input[type=submit]:hover {
@@ -137,6 +137,7 @@ input[type=submit]:hover {
     height: 25px;
     border: 1px solid blueviolet;
     color: blueviolet;
+    background-color: white;
 }
 
 .minha:hover {
